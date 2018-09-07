@@ -26,7 +26,7 @@ int main(){
     exit(1); //If we couldn't open the file to read from we exit
   }
 
-  out_s.open("output_file.txt");
+  out_s.open("output.txt");
   if(out_s.fail()){
     cout << "Output file opening failed. \n";
     exit(1);
