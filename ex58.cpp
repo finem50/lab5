@@ -21,14 +21,19 @@ int main(){
       c = tolower(c);
       cout << "Your character " << c << "is in uppercase.";
       cout << "Its lowercase case is " << c << endl;
-    }else {
+
+    }if(isspace(c)){
+      cout << "Your character " << c << " is a space.";
+
+      }else {
       c = toupper(c);
       cout << "Your character " << c << " is in lowercase.";
       cout << "Its uppercase is " << c << endl;
+
     }
   }else {
     cout << "Your character " << c << " is a digit. \n";
-  }
+    }
 
   return 0;
 }
