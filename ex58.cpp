@@ -15,24 +15,32 @@ int main(){
   cout << "Enter a character: \n";
   cin >> c;
 
+  // if (isspace(c)){
+  //   c = '\n';
+  //   cout << "The character you've entered is a blank space, new line, tab.";
+  // }
+
   if(isalpha(c)){ //Check to see if it is a letter of alphabet
 
     if(isupper(c)){ //check to see if it is uppercase
-      c = tolower(c);
-      cout << "Your character " << c << "is in uppercase.";
-      cout << "Its lowercase case is " << c << endl;
 
-    }if(isspace(c)){
-      cout << "Your character " << c << " is a space.";
+      c = tolower(c);
+      cout << "Your character " << c << " is in uppercase.";
+      cout << " Its lowercase case is " << c << endl;
 
       }else {
+
       c = toupper(c);
       cout << "Your character " << c << " is in lowercase.";
-      cout << "Its uppercase is " << c << endl;
+      cout << " Its uppercase is " << c << endl;
+      }
 
-    }
-  }else {
-    cout << "Your character " << c << " is a digit. \n";
+    }else if(isspace(c)){ //Check if a space is entered
+      c = '\n';
+      cout << "The character you entered was a space.";
+
+    }else {
+      cout << "Your character " << c << " is a digit. \n";
     }
 
   return 0;
