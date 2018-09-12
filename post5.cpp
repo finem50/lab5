@@ -29,8 +29,16 @@ int main(){
 }
 
 void instructions(){
+/**Compile and execute file
+This program requires a pre-existing text file. When running the
+compiled file, you will be prompted to enter your desired text file name, with
+file extension. A text file will be included with this lab,
+but you may use your own as well.
 
-
+This program will append outputs to "html_output.html", so make sure that upon
+executing this program multiple times, you should rather manually change
+the file name in the source-code, or you should delete the created file.
+**/
 }
 
 void get_test_files(ifstream& in_s, ofstream& out_s){
