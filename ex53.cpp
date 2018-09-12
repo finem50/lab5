@@ -48,7 +48,7 @@ void get_stream(ifstream& in_s, ofstream& out_s){
     exit(1); //If we couldn't open the file to read from we exit
   }
 
-  out_s.open("output.txt");
+  out_s.open("ex53_output.txt");
     if(out_s.fail()){
       cout << "Output file opening failed. \n";
       exit(1);

@@ -26,7 +26,7 @@ int main(){
     exit(1); //If we couldn't open the file to read from we exit
   }
 
-  out_s.open("output.txt");
+  out_s.open("ex52_output.txt");
   if(out_s.fail()){
     cout << "Output file opening failed. \n";
     exit(1);
