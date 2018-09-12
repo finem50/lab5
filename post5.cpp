@@ -35,6 +35,9 @@ compiled file, you will be prompted to enter your desired text file name, with
 file extension. A text file will be included with this lab,
 but you may use your own as well.
 
+To use the included file with this lab, enter "html_input.txt"
+when prompted for a file name.
+
 This program will append outputs to "html_output.html", so make sure that upon
 executing this program multiple times, you should rather manually change
 the file name in the source-code, or you should delete the created file.
